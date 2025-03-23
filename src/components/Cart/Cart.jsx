@@ -16,7 +16,7 @@ const Cart = (props) => {
   };
 
   const cartItemAddHandler = (item) => {
-    condole.log(item)
+    console.log(item)
     cartCtx.addItem({ ...item, amount: 1 });
   };
 
